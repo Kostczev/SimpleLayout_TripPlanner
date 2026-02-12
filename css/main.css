@@ -220,7 +220,7 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    background: url(/media/img/sky.jpg) center / cover no-repeat;
+    background: url(media/img/sky.jpg) center / cover no-repeat;
     opacity: .7;
 }
 
@@ -287,6 +287,6 @@ body {
     }
 
     .do-it::after {
-        background-image: url(/media/img/sky-mob.png);
+        background-image: url(media/img/sky-mob.png);
     }
 }
