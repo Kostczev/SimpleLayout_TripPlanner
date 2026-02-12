@@ -1,0 +1,39 @@
+.button {
+    background: linear-gradient(
+        180deg,
+        var(--color-primary-500),
+        var(--color-primary-600)
+    );
+    padding: 0.75rem 1.25rem;
+    border-radius: .75rem;
+    color: #fff;
+    border: none;
+    display: inline-block;
+
+    font-weight: 500;
+    transition: 
+        transform .2s ease,
+        box-shadow .2s ease,
+        background .2s ease;
+}
+
+.button:hover,
+.button:focus-visible {
+    background: linear-gradient(
+        180deg,
+        var(--color-primary-600),
+        var(--color-primary-500)
+    );
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.button:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
